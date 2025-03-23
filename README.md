@@ -4,7 +4,6 @@ In this project, I explore a fast way to price an option using the **Black-Schol
 
 The mathematics used here is written in **C** and wrapped in **Python** for user convenience. 
 
-
 ### Dependencies
 ### For macOS & Linux
 ```sh
@@ -20,7 +19,7 @@ or
 python -m pip install --upgrade setuptools wheel
 ```
 
-#### For Windows
+### For Windows
 ```sh
 pip install setuptools wheel
 ```
@@ -46,6 +45,20 @@ If that doesn't work
 ```python3
 import bs
 ```
+You can now enter numbers for the relevant parameters.
+
+```
+S = 147.30    # Current stock price
+K = 150.0     # Strike price
+r = 0.001     # Risk-free interest rate
+t = 60/365    # Time to expiration (in years)
+sigma = 0.45  # Volatility
+
+# Pricing a call option
+bs.bs_call(S, K, r, t, sigma)
+print(f"Call Option Price: {price:.2f}")
+```
+
 This project holds an MIT License.
 
 Feel free to email me: adam.bouchenaf23@gmail.com
