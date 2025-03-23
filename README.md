@@ -80,10 +80,11 @@ You should obtain
 12.1939067576814
 ```
 ---
+
 Understanding the math behind this is crucial. 
----
 
 This project holds an MIT License.
+
 ---
 
 Feel free to email me: adam.bouchenaf23@gmail.com
