@@ -83,7 +83,7 @@ static struct PyModuleDef bsmodule = {
     methods
 };
 
-// Module initialization function
+// Module initialisation function
 PyMODINIT_FUNC PyInit_bs(void) {
     return PyModule_Create(&bsmodule);
 }
