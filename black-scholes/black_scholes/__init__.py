@@ -1,4 +1,4 @@
-from . import bs
+import bs
 
 def call(s, k, r, t, sigma):
     """ Wrapper function for Black-Scholes call option pricing """
