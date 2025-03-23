@@ -81,7 +81,7 @@ You should obtain
 ```
 ---
 
-Understanding the math behind this is crucial. 
+Understanding the math behind this is **crucial**. 
 
 This project holds an MIT License.
 
