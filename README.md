@@ -52,7 +52,7 @@ import bs
 If that doesn't work
 
 ```python3
-import bs
+import black_scholes
 ```
 You can now enter numbers for the relevant parameters.
 
