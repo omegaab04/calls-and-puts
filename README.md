@@ -5,6 +5,8 @@ In this project, I explore a fast way to price an option using the **Black-Schol
 The mathematics used here is written in **C** and wrapped in **Python** for user convenience. 
 
 ### Dependencies
+
+
 ### For macOS & Linux
 ```sh
 python3 -m pip install --upgrade setuptools wheel
@@ -70,9 +72,12 @@ You should obtain
 ```
 12.1939067576814
 ```
+
 Understanding the math behind this is crucial. 
 
+
 This project holds an MIT License.
+
 
 Feel free to email me: adam.bouchenaf23@gmail.com
 
