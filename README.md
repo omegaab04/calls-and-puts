@@ -28,7 +28,7 @@ pip install setuptools wheel
 
 ### Clone Repo
 ```sh
-git clone https://github.com/yourusername/black-scholes.git
+git clone https://github.com/omegaab04/black-scholes.git
 cd black-scholes
 ```
 
