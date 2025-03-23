@@ -38,6 +38,13 @@ python3 setup.py build
 python3 setup.py install
 ```
 
+or
+
+```sh
+python setup.py build
+python setup.py install
+```
+
 ## How to run
 ```python
 import bs
